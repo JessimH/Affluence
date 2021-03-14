@@ -1,0 +1,7 @@
+{
+  "name": "Affluence",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
