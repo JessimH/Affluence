@@ -3,7 +3,7 @@
         <ion-item v-if="error.length > 0">
             <ion-grid>
                 <ion-col>
-                    <ion-text v-for="error in error" :key="error" class="danger">
+                    <ion-text v-for="error in error" :key="error" class="warning">
                         <p class="ion-text-center">{{ error }}</p>
                     </ion-text>
                 </ion-col>
@@ -101,7 +101,7 @@
 
                 this.error = [] 
                 this.jsonMessage = '' 
-                
+
                 if(!this.cgu){
                     this.error.push("Veuillez accepter les CGU.") 
                 } 
