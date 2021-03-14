@@ -11,10 +11,8 @@
           <ion-title size="large">Accueil</ion-title>
         </ion-toolbar>
       </ion-header>
-    
       <Informations v-model:infos="infos" />
       <InformationsDays v-model:infos="infos" />
-      
     </ion-content>
   </ion-page>
 </template>

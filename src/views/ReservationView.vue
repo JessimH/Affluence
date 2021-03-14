@@ -13,7 +13,7 @@
       </ion-header>
       <ion-grid class="ion-align-items-center">
         <ion-col>
-          <BookingForm />
+          <Reservation />
         </ion-col>
       </ion-grid>
     </ion-content>
@@ -22,10 +22,10 @@
 
 <script>
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent, IonGrid, IonCol} from '@ionic/vue'
-import BookingForm from '@/components/BookingForm'
+import Reservation from '@/components/Reservation'
 
 export default {
   name: 'Booking',
-  components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage, BookingForm, IonGrid, IonCol }
+  components: { IonHeader, IonToolbar, IonTitle, IonContent, IonPage, Reservation, IonGrid, IonCol }
 }
 </script>

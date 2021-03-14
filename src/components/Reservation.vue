@@ -49,7 +49,7 @@
     import { IonItem, IonLabel, IonInput, IonButton, IonDatetime, IonCheckbox, IonText, IonGrid, IonCol } from '@ionic/vue' 
 
     export default {
-        name: "BookingForm",
+        name: "Reservation",
         components: { IonItem, IonLabel, IonInput, IonButton, IonDatetime, IonCheckbox, IonText, IonGrid, IonCol },
         data() {
             return {

@@ -7,7 +7,7 @@
           <ion-label>Accueil</ion-label>
         </ion-tab-button>
           
-        <ion-tab-button tab="booking" href="/booking">
+        <ion-tab-button tab="reservation" href="/reservation">
           <ion-icon :icon="calendarOutline" />
           <ion-label>Réservation</ion-label>
         </ion-tab-button>
