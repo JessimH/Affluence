@@ -101,11 +101,12 @@
 
                 this.error = [] 
                 this.jsonMessage = '' 
+                
                 if(!this.cgu){
                     this.error.push("Veuillez accepter les CGU.") 
                 } 
                 if(!this.validateEmail(this.email)){
-                    this.error.push("Veuillez entrer un email valide.") 
+                    this.error.push("l'email entré n'est pas valide.") 
                 } 
                 if(this.hour > 18 || this.hour < 9){
                     this.error.push("Vous ne pouvez réserver que de 9 à 17h")
