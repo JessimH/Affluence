@@ -2,13 +2,13 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title class="ion-text-center">Réservation</ion-title>
+        <ion-title class="ion-text-center">Réserver</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Réservation</ion-title>
+          <ion-title size="large">Réserver</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-grid class="ion-align-items-center">
