@@ -70,13 +70,13 @@
             getDate(){
                 var today = new Date() 
                 if(today.getMonth()+1 < 10 && today.getDate() < 10 ){
-                    this.todayDate = `${today.getFullYear()}-0${today.getMonth()+1}-0${+today.getDate()}`
+                    this.todayDate = `${today.getFullYear()}-0${today.getMonth()+1}-0${today.getDate()}`
                 }else if(today.getMonth()+1 > 9 && today.getDate() < 10 ){
-                    this.todayDate = `${today.getFullYear()}-${today.getMonth()+1}-0${+today.getDate()}`
+                    this.todayDate = `${today.getFullYear()}-${today.getMonth()+1}-0${today.getDate()}`
                 }else if(today.getMonth()+1 < 10 && today.getDate() > 9 ){
-                    this.todayDate = `${today.getFullYear()}-0${today.getMonth()+1}-${+today.getDate()}`
+                    this.todayDate = `${today.getFullYear()}-0${today.getMonth()+1}-${today.getDate()}`
                 }else if(today.getMonth()+1 > 9 && today.getDate() > 9 ){
-                    this.todayDate = `${today.getFullYear()}-${today.getMonth()+1}-${+today.getDate()}`
+                    this.todayDate = `${today.getFullYear()}-${today.getMonth()+1}-${today.getDate()}`
                 }
                 console.log(this.todayDate)
             },
@@ -88,13 +88,13 @@
                 var newDate = new Date(this.date)
                 let newDateString = ""
                 if(newDate.getMonth()+1 < 10 && newDate.getDate() < 10 ){
-                    newDateString = `${newDate.getFullYear()}-0${newDate.getMonth()+1}-0${+newDate.getDate()}`
+                    newDateString = `${newDate.getFullYear()}-0${newDate.getMonth()+1}-0${newDate.getDate()}`
                 }else if(newDate.getMonth()+1 > 9 && newDate.getDate() < 10 ){
-                    newDateString = `${newDate.getFullYear()}-${newDate.getMonth()+1}-0${+newDate.getDate()}`
+                    newDateString = `${newDate.getFullYear()}-${newDate.getMonth()+1}-0${newDate.getDate()}`
                 }else if(newDate.getMonth()+1 < 10 && newDate.getDate() > 9 ){
-                    newDateString = `${newDate.getFullYear()}-0${newDate.getMonth()+1}-${+newDate.getDate()}`
+                    newDateString = `${newDate.getFullYear()}-0${newDate.getMonth()+1}-${newDate.getDate()}`
                 }else if(newDate.getMonth()+1 > 9 && newDate.getDate() > 9 ){
-                    newDateString = `${newDate.getFullYear()}-${newDate.getMonth()+1}-${+newDate.getDate()}`
+                    newDateString = `${newDate.getFullYear()}-${newDate.getMonth()+1}-${newDate.getDate()}`
                 }
 
                 this.uniqueId = Math.random().toString(36).substring(2, 15) + Math.random().toString(36).substring(2, 15) 
@@ -137,7 +137,6 @@
         },
     }
 </script>
-
 
 <style scoped>
     .warning{
